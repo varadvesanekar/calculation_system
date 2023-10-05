@@ -27,22 +27,22 @@ int main()
 
         case 2:
         c=a-b;
-        printf("substraction of %.2f and %.2f is %.2f\n",c);
+        printf("substraction of %.2f and %.2f is %.2f\n",a,b,c);
         break;
 
         case 3:
         c=a*b;
-        printf("Multiplication of %.2f and %.2f is %.2f\n",c);
+        printf("Multiplication of %.2f and %.2f is %.2f\n",a,b,c);
         break;
 
         case 4:
         c=a/b;
-        printf("Division of %.2f and %.2f is %.2f\n ",c);
+        printf("Division of %.2f and %.2f is %.2f\n ",a,b,c);
         break;
 
         default:
         printf("\nEnter correct Choice !! ");
         
     }
-    printf("        THANK YOU FOR USING THIS CALCULATION STSTEM         ");
+    printf("-------------THANK YOU FOR USING THIS CALCULATION STSTEM-------------");
 }
